@@ -1,15 +1,11 @@
 #include "holberton.h"
 
 /**
-* swap_int - swap the value of a and b.
-* @a : a is a value
-* @b : b is a value
+* reset_to_98 - check the code for Holberton School students.
+* @n : n is the pointer of n and return value 98
+* Return: Always 0.
 */
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-int c;
-
-c = *a;
-*a = *b;
-*b = c;
+*n = 98;
 }
